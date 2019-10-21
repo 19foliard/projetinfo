@@ -51,7 +51,7 @@ def simple_contour(f, c=0.0, delta=0.01) :
         gradient = grad_f(X[-1], Y[-1])
         tg_tuple = perpendicular(gradient)
         adernier = [X[-2], Y[-2]]
-        dernier =
+        dernier = [X[-1],Y[-1]]
 
         if distance2(adernier, tg_tuple[])
 
